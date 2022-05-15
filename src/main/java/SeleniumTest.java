@@ -4,7 +4,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class SeleniumTest {
 
     static final String DRIVER_TYPE = "webdriver.chrome.driver";
-    static final String DRIVER_FILE = "/Users/axelhendler/Desktop/chromedriver 3";
+    static final String DRIVER_FILE = "./drivers/chromedriver.exe";
+    // static final String DRIVER_FILE = "/Users/axelhendler/Desktop/chromedriver 3";
 
     public static void main(String[] args) {
         System.setProperty(DRIVER_TYPE, DRIVER_FILE);
